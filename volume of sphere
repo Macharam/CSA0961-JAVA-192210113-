@@ -1,0 +1,15 @@
+import java.util.*;
+class Volumeofsphere
+{
+  public static void main(String arg[])
+    {
+      Scanner sc=new Scanner(System.in);
+      double r,pie,Volume;
+      System.out.println("enter r");
+      r=sc.nextDouble();
+      System.out.println("enter pie");
+      pie=sc.nextDouble();
+      Volume=1.33*pie*r*r*r;
+      System.out.println("Volume:"+Volume);
+    } 
+}
