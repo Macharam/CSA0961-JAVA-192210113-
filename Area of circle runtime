@@ -1,0 +1,16 @@
+import java.util.*;
+class Areaofcircle
+{
+  public static void main(String arg[])
+    {
+      Scanner sc=new Scanner(System.in);
+      int r;
+      double pie,Area;
+      System.out.println("enter r");
+      r=sc.nextInt();
+      System.out.println("enter pie");
+      pie=sc.nextDouble();
+      Area=pie*(r*r);
+      System.out.println("Area:"+Area);
+    } 
+}
