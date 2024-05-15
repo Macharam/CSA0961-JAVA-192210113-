@@ -1,0 +1,17 @@
+import java.util.*;
+class Sum
+{
+   public static void main(String arg[])
+     {
+       Scanner sc=new Scanner(System.in);
+       int n1,n2,n3,Sum;
+       System.out.println("enter n1");
+       n1=sc.nextInt();
+       System.out.println("enter n2");
+       n2=sc.nextInt();
+       System.out.println("enter n3");
+       n3=sc.nextInt();
+       Sum=n1+n2+n3;
+       System.out.println("Addition="+Sum);
+    }
+}
