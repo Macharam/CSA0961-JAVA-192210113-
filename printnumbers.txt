@@ -1,0 +1,19 @@
+import java.util.*;
+class PrintNumbers
+  {
+    public static void main(String args[] )
+     {
+        Scanner sc = new Scanner(System.in);
+        int M,N,K,i;
+        System.out.println("Enter the value of M: ");
+        M = sc.nextInt();
+        System.out.print("Enter the value of N: ");
+        N = sc.nextInt();
+        System.out.print("Enter the value of K: ");
+        K = sc.nextInt();
+        for (int i = M; i <= N; i += K) 
+        {
+            System.out.println(i);
+        }
+     }
+}
